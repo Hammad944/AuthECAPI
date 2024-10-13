@@ -1,78 +1,41 @@
+using AuthECapi.Controllers;
+using AuthECapi.Extenstions;
 using AuthECapi.Models;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-//Services for this Identity 
 builder.Services
-    .AddIdentityApiEndpoints<AppUser>()
-    .AddEntityFrameworkStores<AppDbContext>();
+    .AddSwaggerExplorer()
+    .InjectDbContext(builder.Configuration)
+    .AddAppConfig(builder.Configuration)
+    .AddIdentityHandlerAndStores()
+    .ConfigureIdentityOptions()
+    .AddIdentityAuth(builder.Configuration);
 
-builder.Services.Configure<IdentityOptions>(options =>
-{
-    options.Password.RequireDigit = false;
-    options.Password.RequireLowercase = false;
-    options.Password.RequireUppercase = false;
-    options.User.RequireUniqueEmail = true;
-});
-
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
 
+app
+    .ConfigureSwaggerExplorer()
 #region Config. CORS
-app.UseCors(options =>
- options.WithOrigins("http://localhost:4200")
- .AllowAnyHeader()
- .AllowAnyMethod());
+    .ConfigureCORS(builder.Configuration)
 #endregion
+    .AddIdenityAuthMiddlewares();
 
-app.UseAuthorization();
+
 
 app.MapControllers();
 
 app
     .MapGroup("/api")
     .MapIdentityApi<AppUser>();
+app
+    .MapGroup("/api")
+    .MapIdentityUserEndpoints();
 
-app.MapPost("/api/signup",
-    async (
-        UserManager<AppUser> userManager,
-        [FromBody] UserRegistrationModel userRegistrationModel
-        ) =>
-{
-    AppUser appUser = new AppUser()
-    {
-        UserName = userRegistrationModel.Email,
-        Email = userRegistrationModel.Email,
-        FullName = userRegistrationModel.FullName,
-    };
-    var result = await userManager.CreateAsync(appUser, userRegistrationModel.Password);
-    if (result.Succeeded)
-        return Results.Ok(result);
-    else
-        return Results.BadRequest(result);
-});
 
 app.Run();
-public class UserRegistrationModel
-{
-    public string Email { get; set; }
-    public string Password { get; set; }
-    public string FullName { get; set; }
-}

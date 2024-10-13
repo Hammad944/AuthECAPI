@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|d:\\noname\\codeaffection\\angular18 \u0026 asp.netcore\\authecapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|d:\\noname\\codeaffection\\angular18 \u0026 asp.netcore\\authecapi\\authecapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|solutionrelative:authecapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|d:\\noname\\codeaffection\\angular18 \u0026 asp.netcore\\authecapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|d:\\noname\\codeaffection\\angular18 \u0026 asp.netcore\\authecapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|d:\\noname\\codeaffection\\angular18 \u0026 asp.netcore\\authecapi\\extenstions\\appconfigextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|solutionrelative:extenstions\\appconfigextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|d:\\noname\\codeaffection\\angular18 \u0026 asp.netcore\\authecapi\\controllers\\identityuserendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|solutionrelative:controllers\\identityuserendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|d:\\noname\\codeaffection\\angular18 \u0026 asp.netcore\\authecapi\\models\\appsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|solutionrelative:models\\appsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|d:\\noname\\codeaffection\\angular18 \u0026 asp.netcore\\authecapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|d:\\noname\\codeaffection\\angular18 \u0026 asp.netcore\\authecapi\\extenstions\\identityextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|solutionrelative:extenstions\\identityextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|d:\\noname\\codeaffection\\angular18 \u0026 asp.netcore\\authecapi\\extenstions\\swaggerextenstion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|solutionrelative:extenstions\\swaggerextenstion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|d:\\noname\\codeaffection\\angular18 \u0026 asp.netcore\\authecapi\\extenstions\\efcoreextenstion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|solutionrelative:extenstions\\efcoreextenstion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|d:\\noname\\codeaffection\\angular18 \u0026 asp.netcore\\authecapi\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|solutionrelative:models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|d:\\noname\\codeaffection\\angular18 \u0026 asp.netcore\\authecapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11756157-EB4D-4144-8354-104295642C7D}|AuthECapi.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +54,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppSetting.cs",
+              "DocumentMoniker": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Models\\AppSetting.cs",
+              "RelativeDocumentMoniker": "Models\\AppSetting.cs",
+              "ToolTip": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Models\\AppSetting.cs",
+              "RelativeToolTip": "Models\\AppSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:56:31.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IdentityUserEndpoints.cs",
+              "DocumentMoniker": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Controllers\\IdentityUserEndpoints.cs",
+              "RelativeDocumentMoniker": "Controllers\\IdentityUserEndpoints.cs",
+              "ToolTip": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Controllers\\IdentityUserEndpoints.cs",
+              "RelativeToolTip": "Controllers\\IdentityUserEndpoints.cs",
+              "ViewState": "AgIAABcAAACANTMzMzMiwCwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:42:49.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppConfigExtension.cs",
+              "DocumentMoniker": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Extenstions\\AppConfigExtension.cs",
+              "RelativeDocumentMoniker": "Extenstions\\AppConfigExtension.cs",
+              "ToolTip": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Extenstions\\AppConfigExtension.cs",
+              "RelativeToolTip": "Extenstions\\AppConfigExtension.cs",
+              "ViewState": "AgIAAAEAAAAAMzMzMzMrwA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:32:04.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IdentityExtension.cs",
+              "DocumentMoniker": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Extenstions\\IdentityExtension.cs",
+              "RelativeDocumentMoniker": "Extenstions\\IdentityExtension.cs",
+              "ToolTip": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Extenstions\\IdentityExtension.cs",
+              "RelativeToolTip": "Extenstions\\IdentityExtension.cs",
+              "ViewState": "AgIAACYAAABAAAAAAAAgwDAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:57:34.702Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -38,32 +118,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Models\\AppUser.cs",
-              "RelativeDocumentMoniker": "Models\\AppUser.cs",
-              "ToolTip": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Models\\AppUser.cs",
-              "RelativeToolTip": "Models\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAQAAAAAMjMzMzMLwA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T18:03:52.787Z"
+              "WhenOpened": "2024-09-17T17:57:54.259Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-17T18:07:19.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "AuthECapi",
+              "DocumentMoniker": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\AuthECapi.csproj",
+              "RelativeDocumentMoniker": "AuthECapi.csproj",
+              "ToolTip": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\AuthECapi.csproj",
+              "RelativeToolTip": "AuthECapi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-13T13:10:06.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SwaggerExtenstion.cs",
+              "DocumentMoniker": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Extenstions\\SwaggerExtenstion.cs",
+              "RelativeDocumentMoniker": "Extenstions\\SwaggerExtenstion.cs",
+              "ToolTip": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Extenstions\\SwaggerExtenstion.cs",
+              "RelativeToolTip": "Extenstions\\SwaggerExtenstion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:25:30.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EFCoreExtenstion.cs",
+              "DocumentMoniker": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Extenstions\\EFCoreExtenstion.cs",
+              "RelativeDocumentMoniker": "Extenstions\\EFCoreExtenstion.cs",
+              "ToolTip": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Extenstions\\EFCoreExtenstion.cs",
+              "RelativeToolTip": "Extenstions\\EFCoreExtenstion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:13:34.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Models\\AppUser.cs",
+              "ToolTip": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Models\\AppUser.cs",
+              "RelativeToolTip": "Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T18:03:52.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
@@ -71,19 +204,7 @@
               "RelativeToolTip": "Models\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T17:59:46.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\NoName\\codeaffection\\Angular18 \u0026 Asp.netcore\\AuthECapi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABkAAADgZWZmZmYkwCoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T17:57:54.259Z",
+              "WhenOpened": "2024-09-17T17:59:46.939Z",
               "EditorCaption": ""
             }
           ]
